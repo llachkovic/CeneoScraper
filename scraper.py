@@ -41,8 +41,8 @@ def translate(text):
     return None
 
 # product_code = input("Please enter product code: ")
-product_code = "36991221"
-# product_code = "150607722"
+#product_code = "36991221"
+product_code = "150607722"
 # url = "https://www.ceneo.pl/" + product_code + "#tab=reviews"
 # url = "https://www.ceneo.pl/{}#tab=reviews".format(product_code)
 url = f"https://www.ceneo.pl/{product_code}#tab=reviews"
